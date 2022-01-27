@@ -1,0 +1,25 @@
+let sum = 0;
+let i = 0;
+
+while (i < 3) {
+    let number = parseInt(prompt ("Inserisci un numero."));
+    console.log(number);
+
+    if (isNaN(number)) {
+
+        alert("Deve essere un numero!")
+        i--;
+
+    } else {
+        sum += number;
+        console.log(sum);
+    
+        let risultato = document.getElementById("risultato");
+        risultato.innerHTML = sum;
+    }
+
+    i++
+
+}
+
+

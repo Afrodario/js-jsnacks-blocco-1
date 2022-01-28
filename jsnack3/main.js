@@ -14,7 +14,7 @@ for (let i = 1; i < arrayNumber.length + 1; i++) {
     sumResult.innerHTML = "La somma dei primi 10 numeri è: " + sum;
 
     let average;
-    average = sum / 2;
+    average = sum / arrayNumber.length;
     console.log(average);
     averageResult.innerHTML = "La media dei primi 10 numeri è: " + average;
 

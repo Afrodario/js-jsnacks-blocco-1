@@ -15,7 +15,7 @@ while (i < 10) {
         console.log(sum);
     
         let risultato = document.getElementById("risultato");
-        risultato.innerHTML = "La somma dei 10 numeri che hai inserito è: " + sum;
+        risultato.innerHTML = `La somma dei 10 numeri che hai inserito è: ${sum}`;
     }
 
     i++
